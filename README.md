@@ -11,3 +11,8 @@ If your pseudo program has a vulnerability, then it can be attacked on the port 
 
 Your last question, then, is a little strange: "Why can't a hacker try to craft a TCP packet with a malicious string, encapsulate it inside the HTTP packet and therefore attack the web server?" That IS what hackers do. But they target the port of the service they want to hit. But maybe you can refine that question based on the information I have provided.
 
+# SETUP
+- Download the necessary python modules such as socket, subprocess from the internet.
+- Run the Python Code on your favourite Python IDLE.
+- Enter the IP address of the network you want to scan. 
+- Let it run, it takes a while because it scans all the 1040 ports in the network.
